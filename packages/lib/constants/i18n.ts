@@ -9,6 +9,7 @@ export const SUPPORTED_LANGUAGE_CODES = [
   'nl',
   'pl',
   'pt-BR',
+  'sk',
   'ja',
   'ko',
   'zh',
@@ -73,6 +74,10 @@ export const SUPPORTED_LANGUAGES: Record<string, SupportedLanguage> = {
   'pt-BR': {
     short: 'pt-BR',
     full: 'Portuguese (Brazil)',
+  },
+  sk: {
+    short: 'sk',
+    full: 'Slovak',
   },
   ja: {
     short: 'ja',
